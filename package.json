@@ -1,0 +1,49 @@
+{
+  "name": "dropzone-file-parser",
+  "version": "0.1.0",
+  "description": "A package that helps to parse the file and folders dropped in a dropzone",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:web": "tsc --module esnext --outDir ./dist/web",
+    "build:node": "tsc --module commonjs --outDir ./dist/node"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./web": {
+      "import": "./dist/index.web.mjs"
+    },
+    "./node": {
+      "require": "./dist/index.node.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowflake04/dropzone-file-parser.git"
+  },
+  "keywords": [
+    "file-parser",
+    "dropzone",
+    "file-parser",
+    "dropzone-file"
+  ],
+  "author": "Snowflake04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowflake04/dropzone-file-parser/issues"
+  },
+  "homepage": "https://github.com/snowflake04/dropzone-file-parser#readme",
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
+}

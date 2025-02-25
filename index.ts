@@ -1,1 +1,1 @@
-export { constructDirectoryNodeList } from "./DirectoryNode";
+export { constructDirectoryNodeList } from "./src/DirectoryNode";

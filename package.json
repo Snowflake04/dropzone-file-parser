@@ -1,6 +1,6 @@
 {
   "name": "dropzone-file-parser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A package that helps to parse the file and folders dropped in a dropzone",
   "main": "index.ts",
   "type": "module",

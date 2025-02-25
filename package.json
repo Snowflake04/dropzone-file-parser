@@ -1,6 +1,6 @@
 {
   "name": "dropzone-file-parser",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A package that helps to parse the file and folders dropped in a dropzone",
   "main": "index.ts",
   "type": "module",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build && node scripts/prepare-publish.js",
-    "postpublish": "rm package.publish.json" 
+    "postpublish": "rm package.publish.json"
   },
   "exports": {
     ".": {
